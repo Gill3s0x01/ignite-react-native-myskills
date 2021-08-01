@@ -45,6 +45,13 @@ Nesse projeto tive como principal objetivo aprender conceitos basicos de useEffe
 
   # Entrar no diretório:
   $ cd ignite-react-native-myskills
+
+  # Instalar as dependências:
+  $ yarn
+
+  # Rodar a aplicação:
+  $ yarn android
+
 ```
 :computer:
 
