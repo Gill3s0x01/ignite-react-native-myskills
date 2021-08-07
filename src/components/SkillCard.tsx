@@ -6,7 +6,6 @@ import {
   StyleSheet,
 } from "react-native";
 
-
 interface SkillCardProps extends TouchableOpacityProps {
   skill?: string;
   id?: string;
