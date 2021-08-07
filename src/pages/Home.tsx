@@ -12,7 +12,7 @@ import {
   Keyboard,
 } from "react-native";
 import { Button } from "../components/Button";
-import { SkillCard } from "../components/Skillcard";
+import { SkillCard } from "../components/SkillCard";
 
 interface SkillData {
   id: string;
