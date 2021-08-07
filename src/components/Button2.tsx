@@ -7,11 +7,7 @@
 // } from "react-native";
 
 // interface ButtonProps extends TouchableOpacityProps {
-//   title?: string;
-//   color?: string;
-//   backgroundColor?: string;
-//   fontSize?: number;
-//   onPress?: () => void;
+//   title: string;
 // }
 
 // export function Button({ title, ...rest }: ButtonProps) {
