@@ -38,68 +38,6 @@ export function Home() {
     setMySkills((oldState) => oldState.filter((skill) => skill.id !== id));
   }
 
-  // const applyMoneyMaskUSD = (value: string = "") => {
-  //   const onlyNumbers = /\D/g;
-  //   const cent = /^(\d{1,})(\d{2})$/g;
-  //   const money = /(\d)(?=(\d{3})+\.\d{2,})/g;
-  //   return value
-  //     .replace(onlyNumbers, "")
-  //     .replace(cent, "$1.$2")
-  //     .replace(money, "$1,");
-  // };
-
-  // //Formatting the money
-  // const applyMoneyMaskEUR = (value = "") => {
-  //   const onlyNumbers = /\D/g;
-  //   const cent = /^(\d{1,})(\d{2})$/g;
-  //   const money = /(\d)(?=(\d{3})+\.\d{2,})/g;
-  //   return value
-  //     .replace(onlyNumbers, "")
-  //     .replace(cent, "€1,€2")
-  //     .replace(money, "€1,");
-  // };
-  // //Formatting the money
-  // const applyMoneyMaskGBP = (value = "") => {
-  //   const onlyNumbers = /\D/g;
-  //   const cent = /^(\d{1,})(\d{2})$/g;
-  //   const money = /(\d)(?=(\d{3})+\.\d{2,})/g;
-  //   return value
-  //     .replace(onlyNumbers, "")
-  //     .replace(cent, "£1.£2")
-  //     .replace(money, "£1,");
-  // };
-  // //Formatting the money
-  // const applyMoneyMaskCHF = (value = "") => {
-  //   const onlyNumbers = /\D/g;
-  //   const cent = /^(\d{1,})(\d{2})$/g;
-  //   const money = /(\d)(?=(\d{3})+\.\d{2,})/g;
-  //   return value
-
-  //     .replace(onlyNumbers, "")
-  //     .replace(cent, "CHF1,CHF2")
-  //     .replace(money, "CHF1,");
-  // };
-  // //Formatting the money
-  // const applyMoneyMaskCAD = (value = "") => {
-  //   const onlyNumbers = /\D/g;
-  //   const cent = /^(\d{1,})(\d{2})$/g;
-  //   const money = /(\d)(?=(\d{3})+\.\d{2,})/g;
-  //   return value
-  //     .replace(onlyNumbers, "")
-  //     .replace(cent, "CAD1,CAD2")
-  //     .replace(money, "CAD1,");
-  // };
-  // //Formatting the money
-  // const applyMoneyMaskAUD = (value = "") => {
-  //   const onlyNumbers = /\D/g;
-  //   const cent = /^(\d{1,})(\d{2})$/g;
-  //   const money = /(\d)(?=(\d{3})+\.\d{2,})/g;
-  //   return value
-  //     .replace(onlyNumbers, "")
-  //     .replace(cent, "AUD1,AUD2")
-  //     .replace(money, "AUD1,");
-  // };
-
   useEffect(() => {
     const currentHour = new Date().getHours();
 
